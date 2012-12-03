@@ -10,7 +10,9 @@
 
 		init: function()
 		{
-			
+			this.img();
+
+
 		}
 		
 	}
@@ -25,6 +27,10 @@
 		*/
 
 		site.init();
+
+
+
+
 
 	});
 

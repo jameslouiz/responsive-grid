@@ -1,0 +1,60 @@
+/**
+ * Generates the classes for use in a grid system
+ */
+
+
+
+
+/**
+ * Container that can be used as the main site wrapper
+ */
+.container {
+	width: ($columnWidth * $columns) + ($gutterWidth * ($columns - 1));
+}
+
+
+/**
+ * Generates the .span classes that are used to create columns
+ */
+$i: 1;
+@while $i < ($columns + 1) {
+  .span#{$i} { 
+  	width: ($columnWidth * $i) + ($gutterWidth * ($i - 1));
+  }
+  $i: $i + 1;
+}
+
+[class*='span'] {
+	float: left;
+	margin-left: $gutterWidth;
+}
+
+
+/**
+ * Generates the containing Row
+ */
+.row {
+	margin-left: 0 - $gutterWidth;
+	//width: ($columnWidth * $columns) + ($gutterWidth * ($columns - 1));
+
+	*zoom: 1;
+	&:before,
+	&:after {
+		display: table;
+		content: "";
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+
+/**
+ *	Usage
+ *	<div class="row">
+ *		<div class="span4">Hello</div>
+ *		<div class="span4">Hello</div>
+ *		<div class="span4">Hello</div>
+ *	</div>
+ *
+ */

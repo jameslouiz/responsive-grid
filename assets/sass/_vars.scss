@@ -12,7 +12,7 @@
  * Debug mode will visually highlight any potential markup/accessibility quirks
  * in the browser. Set to `true` or `false`.
  */
-$debug-mode:        false;
+$debug-mode:        true;
 
 
 /**
@@ -77,3 +77,13 @@ $brand-face:        "Helvetica Neue", sans-serif!default;
 $base-spacing-unit: $base-line-height!default;
 $half-spacing-unit: $base-spacing-unit / 2!default;
 $line-height-ratio: $base-line-height / $base-font-size;
+
+
+
+/**
+ * Grid Setup
+ *
+ */
+$columns:			12!default;
+$gutterWidth:		20px!default;
+$columnWidth:		60px!default;
