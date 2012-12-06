@@ -27,179 +27,204 @@
                 <div class="row">
 
                     <div class="span span12">
-                        <div class="col-inner heading">
+                        <div class="span-inner heading">
                             <h1>Responsive Grid</h1>
 
                             <h2 class="show-tablet">Boom! In Your Face!</h2>
-                            <p>Fluid layout with fixed gutter width.</p>
+                            <p>SASS based, 100% responsive grid system with fixed margins.</p>
                             <ul>
                                 <li>Absolutely No widths set</li>
                                 <li>100% Fluid</li>
-                                <li>No JS</li>                                
+                                <li>No JS</li> 
+                                <li>Customize Column count</li>                               
                             </ul>
+
+<pre>
+    //_vars.scss
+    $columns:           12!default; // Set the amount fo columns you want to use
+    $gutterWidth:       20!default; // Set the gap between columns
+    $siteWidth:         1200px; // Set the default width of the site. Pixel, em or percentage
+
+
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;span span6&quot;&gt;
+            &lt;div class=&quot;span-inner&quot;&gt;
+                .span6 
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;span span6&quot;&gt;
+            &lt;div class=&quot;span-inner&quot;&gt;
+                .span6
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+
+
+
                         </div>
                     </div>
 
 
                     <div class="span span12">
-                        <div class="col-inner col-inner--filled screen-size">
+                        <div class="span-inner span-inner--filled screen-size">
                             .span12
                         </div>
                     </div>
 
                     <div class="span span6">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span6
                         </div>
                     </div>
                     <div class="span span6">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span6
                         </div>
                     </div>
 
                     <div class="span span4">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span4
                         </div>
                     </div>
                     <div class="span span4">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span4
                         </div></div>
                     <div class="span span4">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span4
                         </div>
                     </div>
 
                     <div class="span span3">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span3
                         </div>
                     </div>
                     <div class="span span3">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span3
                         </div>
                     </div>
                     <div class="span span3">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span3
                         </div>
                     </div>
                     <div class="span span3">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span3
                         </div>
                     </div>
 
                     <div class="span span2 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span2 .hide-tablet
                         </div></div>
                     <div class="span span2 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span2 .hide-tablet
                         </div>
                     </div>
                     <div class="span span2 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span2 .hide-tablet
                         </div>
                     </div>
                     <div class="span span2 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span2 .hide-tablet
                         </div>
                     </div>
                     <div class="span span2 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span2 .hide-tablet
                         </div>
                     </div>
                     <div class="span span2 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span2 .hide-tablet
                         </div>
                     </div>
 
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div></div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div>
                     </div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div>
                     </div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div>
                     </div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div>
                     </div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div>
                     </div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div></div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div>
                     </div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div>
                     </div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div>
                     </div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div>
                     </div>
                     <div class="span span1 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span1
                         </div>
                     </div>
 
                     <div class="span span8 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span8
                         </div>
                     </div>
                     <div class="span span4 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span4
                         </div>
                     </div>
                     <div class="span span4 hide-tablet">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span4
                         </div>
                     </div>
                     <div class="span span8">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             .span8
                         </div>
                     </div>
@@ -207,20 +232,20 @@
 
                 <div class="row">
                     <div class="span span8">
-                        <div class="col-inner col-inner">
+                        <div class="span-inner span-inner">
                             <h2>Spans Nested in Spans</h2>
                         </div>
                     </div>
                     <div class="span span12">
-                        <div class="col-inner col-inner--filled">
+                        <div class="span-inner span-inner--filled">
                             <div class="row">
                                 <div class="span span6 no-mb">
-                                    <div class="col-inner col-inner--filled col-inner--dark">
+                                    <div class="span-inner span-inner--filled span-inner--dark">
                                         Nested .span6
                                     </div>
                                 </div>
                                 <div class="span span6 no-mb">
-                                    <div class="col-inner col-inner--filled col-inner--dark">
+                                    <div class="span-inner span-inner--filled span-inner--dark">
                                         Nested .span6
                                     </div>
                                 </div>
