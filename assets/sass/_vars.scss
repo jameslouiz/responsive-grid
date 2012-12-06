@@ -12,14 +12,14 @@
  * Debug mode will visually highlight any potential markup/accessibility quirks
  * in the browser. Set to `true` or `false`.
  */
-$debug-mode:        true;
+$debug-mode:        false;
 
 
 /**
  * Do you want all elements to adopt `box-sizing:border-box;` as per
  * paulirish.com/2012/box-sizing-border-box-ftw ?
  */
-$global-border-box: true;
+$global-border-box: false;
 
 
 /**
@@ -85,5 +85,7 @@ $line-height-ratio: $base-line-height / $base-font-size;
  *
  */
 $columns:			12!default;
-$gutterWidth:		20px!default;
-$columnWidth:		60px!default;
+$gutterWidth:		20!default;
+
+
+$siteWidth:			1200px;

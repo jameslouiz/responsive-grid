@@ -1,32 +1,23 @@
 /**
  * Generates the classes for use in a grid system
  */
-
-
-
-
-/**
- * Container that can be used as the main site wrapper
- */
-.container {
-	width: ($columnWidth * $columns) + ($gutterWidth * ($columns - 1));
-}
-
-
 /**
  * Generates the .span classes that are used to create columns
  */
 $i: 1;
 @while $i < ($columns + 1) {
   .span#{$i} { 
-  	width: ($columnWidth * $i) + ($gutterWidth * ($i - 1));
+  	width: $i / $columns * 99.9%;
   }
   $i: $i + 1;
 }
 
-[class*='span'] {
+.span {
 	float: left;
-	margin-left: $gutterWidth;
+	> * {
+		margin-left: $gutterWidth +px;
+		display: block;
+	}
 }
 
 
@@ -34,9 +25,7 @@ $i: 1;
  * Generates the containing Row
  */
 .row {
-	margin-left: 0 - $gutterWidth;
-	//width: ($columnWidth * $columns) + ($gutterWidth * ($columns - 1));
-
+	margin-left: 0 - $gutterWidth +px;
 	*zoom: 1;
 	&:before,
 	&:after {

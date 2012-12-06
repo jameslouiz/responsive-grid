@@ -1,0 +1,65 @@
+
+.show-tablet, .show-phone {
+	display: none;
+}
+.hide-tablet, .hide-phone {
+	display: block;
+}
+
+@mixin full-width {
+	float: none;
+	width: 100%;
+	clear: both;
+}
+
+//Large Tablet
+@media (max-width: 767px) {
+
+	.span2, .span1, .span6, .span8{
+		@include full-width;
+	}
+
+	.hide-tablet {
+		display: none;
+	}
+
+	.show-tablet {
+		display: block;
+	}
+
+	.heading {
+		text-align: center;
+		h1 {
+			font-size: 4em;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.span {
+		@include full-width;
+	}
+}
+
+
+@media (max-width: 450px) {
+	.heading {
+		h1 {
+			font-size: 2.5em;
+		}
+	}
+}
+
+
+@media (max-width: 317px) {
+
+	.heading {
+		h1, h2, h3 {
+			font-size: 1.5em;
+		}
+	}
+
+	.identifier {
+		content: 'Phone';
+	}
+}
