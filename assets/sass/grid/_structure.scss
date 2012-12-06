@@ -14,7 +14,7 @@ $i: 1;
 
 .span {
 	float: left;
-	> * {
+	> .span-inner {
 		margin-left: $gutterWidth +px;
 		display: block;
 	}
