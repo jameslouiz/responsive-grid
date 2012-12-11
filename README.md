@@ -10,12 +10,12 @@
     &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;col col6-12&quot;&gt;
             &lt;div class=&quot;col-inner&quot;&gt;
-                .col 
+                //Stuff in here
             &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class=&quot;col col6-12&quot;&gt;
             &lt;div class=&quot;col-inner&quot;&gt;
-                .col6
+                //Stuff in here
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
