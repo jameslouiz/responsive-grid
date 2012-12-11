@@ -2,23 +2,24 @@
  * Generates the classes for use in a grid system
  */
 /**
- * Generates the .span classes that are used to create columns
+ * Generates the .col classes that are used to create columns
  */
 $i: 1;
 @while $i < ($columns + 1) {
-  .span#{$i} { 
+  .col#{$i}#{-$columns} { 
   	width: $i / $columns * 99.9%;
   }
   $i: $i + 1;
 }
 
-.span {
+.col {
 	float: left;
-	> .span-inner {
+}
+	.col-inner {
 		margin-left: $gutterWidth +px;
 		display: block;
 	}
-}
+
 
 
 /**
@@ -36,14 +37,3 @@ $i: 1;
 		clear: both;
 	}
 }
-
-
-/**
- *	Usage
- *	<div class="row">
- *		<div class="span4">Hello</div>
- *		<div class="span4">Hello</div>
- *		<div class="span4">Hello</div>
- *	</div>
- *
- */

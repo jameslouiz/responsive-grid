@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="site.min.css">
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        
+
+        <div class="container">
+            <div class="container-inner">
+
+                <div class="row">
+
+                    <div class="col col12-12">
+                        <div class="col-inner heading">
+                            <h1>Responsive Grid</h1>
+
+                            <h2 class="show-tablet">Boom! In Your Face!</h2>
+                            <p>SASS based, 100% responsive grid system with fixed margins.</p>
+                            <ul>
+                                <li>Absolutely No widths set</li>
+                                <li>100% Fluid</li>
+                                <li>No JS</li> 
+                                <li>Customize Column count</li>                               
+                            </ul>
+
+<pre>
+    //_vars.scss
+    $columns:           12!default; // Set the amount fo columns you want to use
+    $gutterWidth:       20!default; // Set the gap between columns
+    $siteWidth:         1200px; // Set the default width of the site. Pixel, em or percentage
+
+
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col col6&quot;&gt;
+            &lt;div class=&quot;col-inner&quot;&gt;
+                .col 
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col col6&quot;&gt;
+            &lt;div class=&quot;col-inner&quot;&gt;
+                .col6
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="col col12-12">
+                        <div class="col-inner col-inner--filled screen-size">
+                            .col12
+                        </div>
+                    </div>
+
+                    <div class="col col6-12">
+                        <div class="col-inner col-inner--filled">
+                            .col6
+                        </div>
+                    </div>
+                    <div class="col col6-12">
+                        <div class="col-inner col-inner--filled">
+                            .col6
+                        </div>
+                    </div>
+
+                    <div class="col col4-12">
+                        <div class="col-inner col-inner--filled">
+                            .col4
+                        </div>
+                    </div>
+                    <div class="col col4-12">
+                        <div class="col-inner col-inner--filled">
+                            .col4
+                        </div></div>
+                    <div class="col col4-12">
+                        <div class="col-inner col-inner--filled">
+                            .col4
+                        </div>
+                    </div>
+
+                    <div class="col col3-12">
+                        <div class="col-inner col-inner--filled">
+                            .col3
+                        </div>
+                    </div>
+                    <div class="col col3-12">
+                        <div class="col-inner col-inner--filled">
+                            .col3
+                        </div>
+                    </div>
+                    <div class="col col3-12">
+                        <div class="col-inner col-inner--filled">
+                            .col3
+                        </div>
+                    </div>
+                    <div class="col col3-12">
+                        <div class="col-inner col-inner--filled">
+                            .col3
+                        </div>
+                    </div>
+
+                    <div class="col col2-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col2 .hide-tablet
+                        </div></div>
+                    <div class="col col2-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col2 .hide-tablet
+                        </div>
+                    </div>
+                    <div class="col col2-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col2 .hide-tablet
+                        </div>
+                    </div>
+                    <div class="col col2-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col2 .hide-tablet
+                        </div>
+                    </div>
+                    <div class="col col2-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col2 .hide-tablet
+                        </div>
+                    </div>
+                    <div class="col col2-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col2 .hide-tablet
+                        </div>
+                    </div>
+
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div></div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div>
+                    </div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div>
+                    </div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div>
+                    </div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div>
+                    </div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div>
+                    </div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div></div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div>
+                    </div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div>
+                    </div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div>
+                    </div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div>
+                    </div>
+                    <div class="col col1-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col1
+                        </div>
+                    </div>
+
+                    <div class="col col8-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col8
+                        </div>
+                    </div>
+                    <div class="col col4-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col4
+                        </div>
+                    </div>
+                    <div class="col col4-12 hide-tablet">
+                        <div class="col-inner col-inner--filled">
+                            .col4
+                        </div>
+                    </div>
+                    <div class="col col8-12">
+                        <div class="col-inner col-inner--filled">
+                            .col8
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col8-12">
+                        <div class="col-inner col-inner">
+                            <h2>cols Nested in cols</h2>
+                        </div>
+                    </div>
+                    <div class="col col12-12">
+                        <div class="col-inner col-inner--filled">
+                            <div class="row">
+                                <div class="col col6-12 no-mb">
+                                    <div class="col-inner col-inner--filled col-inner--dark">
+                                        Nested .col6
+                                    </div>
+                                </div>
+                                <div class="col col6-12 no-mb">
+                                    <div class="col-inner col-inner--filled col-inner--dark">
+                                        Nested .col6
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+        <!--Demo JS Remove from production Site-->
+        <script type="text/javascript">
+            var screenSize = $('.screen-size');
+
+            $(window).on('resize', function(){
+                var width = $(this).outerWidth(),
+                    height = $(this).outerHeight();
+
+                screenSize
+                    .text('Screen size: '+width+' x '+height)
+                    .css({
+                        background: '#DCEAF4'
+                    })
+
+            });
+
+
+        </script>
+
+
+    </body>
+</html>
+
+
