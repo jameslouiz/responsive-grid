@@ -255,23 +255,27 @@
             </div>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 
         <!--Demo JS Remove from production Site-->
         <script type="text/javascript">
-            var screenSize = $('.screen-size');
 
-            $(window).on('resize', function(){
-                var width = $(this).outerWidth(),
-                    height = $(this).outerHeight();
+            (function($){
+                var screenSize = $('.screen-size');
 
-                screenSize
-                    .text('Screen size: '+width+' x '+height)
-                    .css({
-                        background: '#DCEAF4'
-                    })
+                $(window).on('resize', function(){
+                    var width = $(this).outerWidth(),
+                        height = $(this).outerHeight();
 
-            });
+                    screenSize
+                        .text('Screen size: '+width+' x '+height)
+                        .css({
+                            background: '#DCEAF4'
+                        })
+
+                });
+
+            })(jQuery);
 
 
         </script>
