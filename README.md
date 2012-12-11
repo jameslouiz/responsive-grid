@@ -8,7 +8,7 @@
 
 
     &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col col&quot;&gt;
+        &lt;div class=&quot;col col6&quot;&gt;
             &lt;div class=&quot;col-inner&quot;&gt;
                 .col 
             &lt;/div&gt;
