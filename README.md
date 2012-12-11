@@ -22,4 +22,4 @@
 </pre>
 
 
-The <code>.colx-x //.span4-12</code> classes are generated based on the number of columns you have set so they follow a fraction based naming convention so <code>.span4-12</code> would be 1 third of the width of the site, <code>.span6-12</code> would be half and so on.
+The <code>.colnumerator-denominator //.col4-12</code> classes are generated based on the number of columns you have set so they follow a fraction based naming convention so <code>.col4-12</code> would be four/twelths or one/third of the width of the site, <code>.col6-12</code> would be half and so on.
