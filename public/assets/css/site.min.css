@@ -1,0 +1,62 @@
+/*
+Syntax error: File to import not found or unreadable: responsive.
+              Load path: C:/Users/jthompson/Documents/Clients/click-xpose/public/assets/css
+        on line 5 of sass/grid/grid.scss
+        from line 23 of sass/site.scss
+
+1: @charset "UTF-8";
+2: /*------------------------------------*\
+3:     YOUR-PROJECT.CSS
+4: \*------------------------------------*/
+5: /**
+6:  * 
+7:  * sass --watch your-project.scss:your-project.min.css --style compressed
+8:  * 
+9:  * Here we set up some variables, include the inuit.css framework, then add our
+10:  * project-specific components afterwards.
+
+Backtrace:
+sass/grid/grid.scss:5
+sass/site.scss:23
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/import_node.rb:45:in `import'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/import_node.rb:28:in `imported_file'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/import_node.rb:37:in `css_import?'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:215:in `visit_import'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:225:in `block in visit_import'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:225:in `map'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:7:in `visit'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/root_node.rb:20:in `render'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:315:in `_render'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:262:in `render'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `each'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:299:in `block in watch'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/vendor/listen/lib/listen/multi_listener.rb:86:in `call'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/vendor/listen/lib/listen/multi_listener.rb:86:in `on_change'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/vendor/listen/lib/listen/multi_listener.rb:95:in `block in initialize_adapter'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/vendor/listen/lib/listen/adapters/polling.rb:55:in `call'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/vendor/listen/lib/listen/adapters/polling.rb:55:in `poll'
+c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/vendor/listen/lib/listen/adapters/polling.rb:31:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: responsive.\A               Load path: C:/Users/jthompson/Documents/Clients/click-xpose/public/assets/css\A         on line 5 of sass/grid/grid.scss\A         from line 23 of sass/site.scss\A \A 1: @charset \"UTF-8\";\A 2: /*------------------------------------*\\A 3:     YOUR-PROJECT.CSS\A 4: \*------------------------------------*/\A 5: /**\A 6:  * \A 7:  * sass --watch your-project.scss:your-project.min.css --style compressed\A 8:  * \A 9:  * Here we set up some variables, include the inuit.css framework, then add our\A 10:  * project-specific components afterwards."; }
